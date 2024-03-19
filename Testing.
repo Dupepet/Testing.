@@ -1,0 +1,17 @@
+local Tab = Window:CreateTab("Keyless🔥", nil) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Daddy hub",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/Maris-Hub'))()   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Daddy Hub",
+   Callback = function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/ReinLoader'))()           
+   end,
+})
+
+local Section = Tab:CreateSection("More coming soon! (Maybe)")
